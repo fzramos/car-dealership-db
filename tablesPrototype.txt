@@ -1,0 +1,19 @@
+salesperson
+
+customer
+
+invoice? (only for sold cars, will be inbetween for customer and car
+
+car (general for buy and in for service)
+
+inventory (for cars car_id to sell)
+
+repair (for car_id brough in for repair)
+
+service_history OR service (maybe include boolean column for currently being serviced
+
+service_task - inbetween for service_history and mechanics - service_task?
+
+mechanic
+
+part
