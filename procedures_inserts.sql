@@ -164,3 +164,12 @@ INSERT INTO sales_invoice(invoice_id, cost_, salesperson_id, serial_number, date
 VALUES(2, 50000, 2, '3', CURRENT_DATE);
 SELECT *
 FROM sales_invoice;
+
+-- Example query
+SELECT first_name, color
+FROM customer
+JOIN car
+ON customer.serial_number=car.serial_number;
+
+
+
